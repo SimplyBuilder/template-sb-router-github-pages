@@ -1,7 +1,7 @@
 'use strict';
 
 import { RouterModule } from '@jamilservices/sb-module-router';
-const routers = RouterModule.instance();
+const routers = RouterModule.instance({subpath: true});
 
 routers.register({
     id: "page1",
