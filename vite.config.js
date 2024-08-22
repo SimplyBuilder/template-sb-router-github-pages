@@ -12,7 +12,7 @@ export default defineConfig({
     root: './src',
     build: {
         manifest: false,
-        outDir: '../dist',
+        outDir: '../build',
         minify: 'terser',
         target: "esnext",
         terserOptions: {
