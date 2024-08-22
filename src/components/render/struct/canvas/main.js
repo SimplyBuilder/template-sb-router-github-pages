@@ -16,7 +16,7 @@ const menuItemsStruct = () => {
                 const itemSchema = {
                     element: "a",
                     attr: {
-                        href: "./#/" + link
+                        href: "./#!/" + link
                     },
                     text
                 };
