@@ -1,6 +1,9 @@
 *
 
+!.github
+!.github/**
 !.gitignore
+!.nojekyll
 
 !src
 !src/**
@@ -10,6 +13,7 @@
 !package.json
 !postcss.config.js
 !vite.config.js
+!README.md
 
 **/*~
 **/*.log
